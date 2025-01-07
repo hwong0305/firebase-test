@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.1.1/dist/css/materialize.min.css"
+    />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.1.1/dist/js/materialize.min.js"></script>
+    <title>Firebase Test</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1>Login</h1>
+
+        <form class="row">
+          <div class="s12 m6 input-field outlined">
+            <input id="email" type="text" />
+            <label for="email">Email</label>
+          </div>
+          <div class="s12 m6 input-field outlined">
+            <input id="password" type="password" />
+            <label for="password">Password</label>
+          </div>
+          <div class="s12">
+            <button type="submit" class="btn filled" style="width: 100%">Login</button>
+          </div>
+          <div class="s12">
+            <button type="button" class="btn outlined" id="signin-google" style="width: 100%">
+              Sign in With Google
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
